@@ -1,11 +1,11 @@
-package com.example.shopAPI.service;
+package com.example.shopAPI.product.service;
 
-import com.example.shopAPI.dto.ProductCreateDTO;
-import com.example.shopAPI.dto.ProductUpdateDTO;
-import com.example.shopAPI.interfaces.ProductService;
+import com.example.shopAPI.product.dto.ProductCreateDTO;
+import com.example.shopAPI.product.dto.ProductUpdateDTO;
+import com.example.shopAPI.product.interfaces.ProductService;
 import com.mongodb.MongoException;
-import com.example.shopAPI.model.Product;
-import com.example.shopAPI.repository.ProductRepository;
+import com.example.shopAPI.product.model.Product;
+import com.example.shopAPI.product.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

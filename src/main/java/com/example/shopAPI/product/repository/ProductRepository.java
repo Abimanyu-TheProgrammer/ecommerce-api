@@ -1,6 +1,6 @@
-package com.example.shopAPI.repository;
+package com.example.shopAPI.product.repository;
 
-import com.example.shopAPI.model.Product;
+import com.example.shopAPI.product.model.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;

@@ -1,6 +1,6 @@
-package com.example.shopAPI.dto;
+package com.example.shopAPI.product.dto;
 
-public class ProductUpdateDTO {
+public class ProductCreateDTO {
     private String title;
     private String description;
     private long price;

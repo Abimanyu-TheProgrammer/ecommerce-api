@@ -1,9 +1,9 @@
-package com.example.shopAPI.controller;
+package com.example.shopAPI.product.controller;
 
-import com.example.shopAPI.dto.ProductUpdateDTO;
-import com.example.shopAPI.dto.ProductCreateDTO;
-import com.example.shopAPI.interfaces.ProductService;
-import com.example.shopAPI.model.Product;
+import com.example.shopAPI.product.dto.ProductUpdateDTO;
+import com.example.shopAPI.product.dto.ProductCreateDTO;
+import com.example.shopAPI.product.interfaces.ProductService;
+import com.example.shopAPI.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

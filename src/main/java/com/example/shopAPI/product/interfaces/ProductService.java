@@ -1,8 +1,8 @@
-package com.example.shopAPI.interfaces;
+package com.example.shopAPI.product.interfaces;
 
-import com.example.shopAPI.dto.ProductCreateDTO;
-import com.example.shopAPI.dto.ProductUpdateDTO;
-import com.example.shopAPI.model.Product;
+import com.example.shopAPI.product.dto.ProductCreateDTO;
+import com.example.shopAPI.product.dto.ProductUpdateDTO;
+import com.example.shopAPI.product.model.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
