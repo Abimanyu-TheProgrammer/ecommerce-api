@@ -1,10 +1,10 @@
-package com.example.shopAPI.auth.service;
+package com.example.shopAPI.auth.service.impl;
 
 import com.example.shopAPI.auth.dao.JwtAuthenticationResponse;
 import com.example.shopAPI.auth.dao.SignInRequest;
 import com.example.shopAPI.auth.dao.SignUpRequest;
-import com.example.shopAPI.auth.interfaces.AuthenticationService;
-import com.example.shopAPI.auth.interfaces.JwtService;
+import com.example.shopAPI.auth.service.AuthenticationService;
+import com.example.shopAPI.auth.service.JwtService;
 import com.example.shopAPI.auth.model.AuthUser;
 import com.example.shopAPI.auth.model.Role;
 import com.example.shopAPI.auth.repository.UserRepository;

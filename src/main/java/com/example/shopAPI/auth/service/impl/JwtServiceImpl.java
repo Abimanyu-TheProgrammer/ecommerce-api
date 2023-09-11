@@ -1,6 +1,6 @@
-package com.example.shopAPI.auth.service;
+package com.example.shopAPI.auth.service.impl;
 
-import com.example.shopAPI.auth.interfaces.JwtService;
+import com.example.shopAPI.auth.service.JwtService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

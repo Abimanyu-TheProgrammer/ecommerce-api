@@ -3,7 +3,7 @@ package com.example.shopAPI.auth.controller;
 import com.example.shopAPI.auth.dao.JwtAuthenticationResponse;
 import com.example.shopAPI.auth.dao.SignInRequest;
 import com.example.shopAPI.auth.dao.SignUpRequest;
-import com.example.shopAPI.auth.interfaces.AuthenticationService;
+import com.example.shopAPI.auth.service.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

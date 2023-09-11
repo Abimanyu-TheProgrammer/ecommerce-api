@@ -1,4 +1,4 @@
-package com.example.shopAPI.product.interfaces;
+package com.example.shopAPI.product.service;
 
 import com.example.shopAPI.product.dto.ProductCreateDTO;
 import com.example.shopAPI.product.dto.ProductUpdateDTO;

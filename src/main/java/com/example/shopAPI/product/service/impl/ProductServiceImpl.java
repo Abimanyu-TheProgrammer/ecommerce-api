@@ -1,8 +1,8 @@
-package com.example.shopAPI.product.service;
+package com.example.shopAPI.product.service.impl;
 
 import com.example.shopAPI.product.dto.ProductCreateDTO;
 import com.example.shopAPI.product.dto.ProductUpdateDTO;
-import com.example.shopAPI.product.interfaces.ProductService;
+import com.example.shopAPI.product.service.ProductService;
 import com.mongodb.MongoException;
 import com.example.shopAPI.product.model.Product;
 import com.example.shopAPI.product.repository.ProductRepository;

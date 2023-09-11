@@ -2,7 +2,7 @@ package com.example.shopAPI.product.controller;
 
 import com.example.shopAPI.product.dto.ProductUpdateDTO;
 import com.example.shopAPI.product.dto.ProductCreateDTO;
-import com.example.shopAPI.product.interfaces.ProductService;
+import com.example.shopAPI.product.service.ProductService;
 import com.example.shopAPI.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -71,7 +71,7 @@ public class ProductController {
         return new ResponseEntity<>(productService.update(productUpdateDTO, id), HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/product/{id}")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Product> delete(@PathVariable String id){
         return new ResponseEntity<>(productService.delete(id), HttpStatus.OK);

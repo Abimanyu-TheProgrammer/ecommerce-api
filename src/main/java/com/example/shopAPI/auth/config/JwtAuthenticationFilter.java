@@ -1,7 +1,7 @@
 package com.example.shopAPI.auth.config;
 
-import com.example.shopAPI.auth.interfaces.JwtService;
-import com.example.shopAPI.auth.interfaces.UserService;
+import com.example.shopAPI.auth.service.JwtService;
+import com.example.shopAPI.auth.service.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

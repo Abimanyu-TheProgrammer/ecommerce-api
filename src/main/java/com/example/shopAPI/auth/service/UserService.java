@@ -1,4 +1,4 @@
-package com.example.shopAPI.auth.interfaces;
+package com.example.shopAPI.auth.service;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 

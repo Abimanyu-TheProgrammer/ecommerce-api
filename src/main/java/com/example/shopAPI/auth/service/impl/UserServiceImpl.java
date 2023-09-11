@@ -1,6 +1,6 @@
-package com.example.shopAPI.auth.service;
+package com.example.shopAPI.auth.service.impl;
 
-import com.example.shopAPI.auth.interfaces.UserService;
+import com.example.shopAPI.auth.service.UserService;
 import com.example.shopAPI.auth.model.AuthUser;
 import com.example.shopAPI.auth.model.Role;
 import com.example.shopAPI.auth.repository.UserRepository;

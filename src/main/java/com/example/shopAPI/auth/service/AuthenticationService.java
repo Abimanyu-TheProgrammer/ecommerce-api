@@ -1,4 +1,4 @@
-package com.example.shopAPI.auth.interfaces;
+package com.example.shopAPI.auth.service;
 
 import com.example.shopAPI.auth.dao.JwtAuthenticationResponse;
 import com.example.shopAPI.auth.dao.SignInRequest;
