@@ -42,4 +42,8 @@ public class Product {
     private String title;
     private String description;
     private long price;
+
+    public String getId() {
+        return id;
+    }
 }
