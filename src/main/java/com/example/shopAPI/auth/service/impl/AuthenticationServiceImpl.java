@@ -36,6 +36,19 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     private AuthenticationManager authenticationManager;
 
     @Override
+    public JwtAuthenticationResponse resetPassword(String email, String newPassword) {
+        var authUser = userRepository.findByEmail(email)
+                .orElseThrow(() -> new IllegalArgumentException("Invalid email"));
+        authUser.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(authUser);
+        var grantedAuthorities = generateGrantedAuthorities(authUser);
+        var user = new User(email, newPassword,
+                true, true, true, true, grantedAuthorities);
+        var jwt = jwtService.generateToken(user);
+        return JwtAuthenticationResponse.builder().token(jwt).build();
+    }
+
+    @Override
     public JwtAuthenticationResponse signup(SignUpRequest request) {
         var authUser = new AuthUser(request.getEmail(), passwordEncoder.encode(request.getPassword()));
         userRepository.save(authUser);
