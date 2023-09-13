@@ -5,6 +5,8 @@ public class ProductUpdateDTO {
     private String description;
     private long price;
 
+    private String imageBase64;
+
     public String getTitle() {
         return title;
     }
